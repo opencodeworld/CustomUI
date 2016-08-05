@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/radar_btn" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="显示雷达效果"
+        android:textSize="12sp"
+        />
+    
+	<Button
+        android:id="@+id/combinaional_status_btn" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="显示自定义组合状态控件"
+        android:textSize="12sp"
+        />
+	
+	<Button
+        android:id="@+id/wcrs_progressbar_btn" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="显示类似Windows拷贝文件效果进度条"
+        android:textSize="12sp"
+        />
+	
+	<Button 
+	    android:id="@+id/water_wave_progress"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="显示水波纹进度"
+	    ></Button>
+	   
+	<Button 
+	    android:id="@+id/rotating"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="显示图片旋转"
+	    ></Button>
+	    
+    
+</LinearLayout>
